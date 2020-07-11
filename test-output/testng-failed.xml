@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="backgroundCheck.feature.e2e.TC00001_TC00010_verifyFormsRequiredInputs">
+      <class name="backgroundCheck.feature.e2e.TC00004_TC000016_verifyInformationPageRequiredInputs">
         <methods>
-          <include name="verifyFormRequiredInputs" invocation-numbers="1"/>
-          <include name="closeConnections"/>
+          <include name="verifyFormRequiredInputs" invocation-numbers="3 4 5 6 7 11"/>
           <include name="initTestSuite"/>
           <include name="initWebDriver"/>
           <include name="tearDown"/>
+          <include name="closeConnections"/>
         </methods>
-      </class> <!-- backgroundCheck.feature.e2e.TC00001_TC00010_verifyFormsRequiredInputs -->
+      </class> <!-- backgroundCheck.feature.e2e.TC00004_TC000016_verifyInformationPageRequiredInputs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
