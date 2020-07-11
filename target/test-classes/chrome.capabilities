@@ -1,0 +1,3 @@
+browserName=chrome
+driverName=webdriver.chrome.driver
+driverPath=src/test/resources/chromedriver.exe

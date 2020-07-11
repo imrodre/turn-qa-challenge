@@ -1,0 +1,11 @@
+package backgroundCheck.enums;
+
+public enum STAGES {
+	
+	INFORMATION,
+	RIGHTS,
+	DISCLOSURE,
+	STATE_RIGHTS,
+	AUTHORIZATION,
+	CONFIRMATION
+}
